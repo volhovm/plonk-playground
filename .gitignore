@@ -1,0 +1,13 @@
+.stack-work
+stack.yaml.lock
+dist-newstyle/
+*#
+\#*
+*~
+.#*
+tmp/
+some.svg
+.hpc/
+*.tix
+dist/
+TAGS

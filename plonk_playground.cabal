@@ -1,0 +1,53 @@
+name:                plonk-playground
+version:             0.1.0.0
+license:             GPL-3
+license-file:        LICENSE
+author:              Mikhail Volkhov
+maintainer:          volhovm.cs@gmail.com
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Field
+                     , Playground
+                     , Plonk
+  build-depends:       MonadRandom >= 0.5.3
+                     , base >=4.16 && <4.17
+                     , bytestring
+                     , containers
+                     , hashable >= 1.4.2.0
+                     , lens
+                     , mtl
+                     , primes
+                     , random
+                     , reflection
+                     , text
+                     , unordered-containers
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  ghc-options:         -threaded -Wall
+  default-extensions:
+                        AllowAmbiguousTypes
+                        DeriveDataTypeable
+                        DeriveGeneric
+                        DataKinds
+                        GeneralizedNewtypeDeriving
+                        StandaloneDeriving
+                        FlexibleContexts
+                        FlexibleInstances
+                        MultiParamTypeClasses
+                        FunctionalDependencies
+                        NoImplicitPrelude
+                        OverloadedStrings
+                        RecordWildCards
+                        TypeApplications
+                        TupleSections
+                        ViewPatterns
+                        LambdaCase
+                        MultiWayIf
+                        KindSignatures
+                        ConstraintKinds
+                        UndecidableInstances
+                        BangPatterns
+                        TemplateHaskell
+                        ScopedTypeVariables
